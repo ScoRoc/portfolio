@@ -20,8 +20,72 @@
 }
 
   /* ---- */
+ /* home */
+/* ---- */
+
+.home-h {
+  transition: .5s .1s;
+}
+
+.page-btn:hover .home-h {
+  transform: scale(2.2) translate(0, 1.2em) rotate(45deg);
+}
+
+.home-o {
+  transition: .5s .2s;
+}
+
+.page-btn:hover .home-o {
+  transform: scale(1.5) translate(0, 1.2em) rotate(45deg);
+}
+
+.home-m {
+  transition: .5s .3s;
+}
+
+.page-btn:hover .home-m {
+  transform: scale(1.5) translate(0, 1em) rotate(45deg);
+}
+
+.home-e {
+  transition: .5s .4s;
+}
+
+.page-btn:hover .home-e {
+  transform: scale(1.5) translate(0, .8em) rotate(45deg);
+}
+
+  /* ---- */
  /* work */
 /* ---- */
+
+.fooh:hover {
+  animation: work 3s;
+}
+
+@keyframes work {
+  15% {
+    transform: scale(1.5);
+  }
+  25% {
+    transform: scale(1);
+    filter: blur(0);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(5);
+    filter: blur(.5em);
+    opacity: .4;
+  }
+  51% {
+    opacity: 0;
+  }
+  52% {
+    transform: scale(0);
+    opacity: 1;
+    filter: blur(0);
+  }
+}
 
   /* ------- */
  /* contact */
@@ -96,6 +160,54 @@
  /* resume */
 /* ------ */
 
+.resume-r {
+  transition: transform .5s 0.4s;
+}
+
+.page-btn:hover .resume-r {
+  transform: scale(2.2) translate(0, -.9em);
+}
+
+.resume-e1 {
+  transition: transform .5s .2s;
+}
+
+.page-btn:hover .resume-e1 {
+  transform: scale(1.5) translate(0, -1em);
+}
+
+.resume-s {
+  transition: transform .5s .0s;
+}
+
+.page-btn:hover .resume-s {
+  transform: scale(1.5) translate(0, -.8em);
+}
+
+.resume-u {
+  transition: transform .5s .1s;
+}
+
+.page-btn:hover .resume-u {
+  transform: scale(1.5) translate(0, -.8em);
+}
+
+.resume-m {
+  transition: transform .5s .3s;
+}
+
+.page-btn:hover .resume-m {
+  transform: scale(1.5) translate(0, -1em);
+}
+
+.resume-e2{
+  transition: transform .5s .5s;
+}
+
+.page-btn:hover .resume-e2 {
+  transform: scale(1.5) translate(0, -1.2em);
+}
+
   /* ----- */
  /* about */
 /* ----- */
@@ -105,7 +217,7 @@
 }
 
 .page-btn:hover .about-a {
-  transform: translate(0, 1em);
+  transform: scale(2.2) translate(2.8em, 0) rotate(90deg);
 }
 
 .about-b {
@@ -113,7 +225,7 @@
 }
 
 .page-btn:hover .about-b {
-  transform: translate(0, 1.2em);
+  transform: scale(1.5) translate(2em, 0) rotate(90deg);
 }
 
 .about-o {
@@ -121,7 +233,7 @@
 }
 
 .page-btn:hover .about-o {
-  transform: translate(0, 1.4em);
+  transform: scale(1.5) translate(.3em, 0) rotate(90deg);
 }
 
 .about-u {
@@ -129,7 +241,7 @@
 }
 
 .page-btn:hover .about-u {
-  transform: translate(0, 1.6em);
+  transform: scale(1.5) translate(-1.3em, 0) rotate(90deg);
 }
 
 .about-t {
@@ -137,5 +249,5 @@
 }
 
 .page-btn:hover .about-t {
-  transform: translate(0, 1.8em);
+  transform: scale(1.5) translate(-3em, 0) rotate(90deg);
 }
