@@ -23,43 +23,147 @@
  /* home */
 /* ---- */
 
-.home-h {
+/* work */
+
+.home-h-work {
   transition: .5s .1s;
 }
 
-.page-btn:hover .home-h {
+.page-btn:hover .home-h-work {
   transform: scale(2.2) translate(0, 1.2em) rotate(45deg);
 }
 
-.home-o {
+.home-o-work {
   transition: .5s .2s;
 }
 
-.page-btn:hover .home-o {
+.page-btn:hover .home-o-work {
   transform: scale(1.5) translate(0, 1.2em) rotate(45deg);
 }
 
-.home-m {
+.home-m-work {
   transition: .5s .3s;
 }
 
-.page-btn:hover .home-m {
+.page-btn:hover .home-m-work {
   transform: scale(1.5) translate(0, 1em) rotate(45deg);
 }
 
-.home-e {
+.home-e-work {
   transition: .5s .4s;
 }
 
-.page-btn:hover .home-e {
+.page-btn:hover .home-e-work {
   transform: scale(1.5) translate(0, .8em) rotate(45deg);
+}
+
+/* contact */
+
+.home-h-contact {
+  transition: .5s .1s;
+}
+
+.page-btn:hover .home-h-contact {
+  transform: scale(2.2) translate(0, .3em) rotate(-90deg);
+}
+
+.home-o-contact {
+  transition: .5s .2s;
+}
+
+.page-btn:hover .home-o-contact {
+  transform: scale(1.5) translate(0, -.7em) rotate(-90deg);
+}
+
+.home-m-contact {
+  transition: .5s .3s;
+}
+
+.page-btn:hover .home-m-contact {
+  transform: scale(1.5) translate(0, .5em) rotate(-90deg);
+}
+
+.home-e-contact {
+  transition: .5s .4s;
+}
+
+.page-btn:hover .home-e-contact {
+  transform: scale(1.5) translate(0, -.4em) rotate(-90deg);
+}
+
+/* resume */
+
+.home-h-resume {
+  transition: .5s .1s;
+}
+
+.page-btn:hover .home-h-resume {
+  transform: scale(2.2) translate(0, 1.2em) rotate(45deg);
+}
+
+.home-o-resume {
+  transition: .5s .2s;
+}
+
+.page-btn:hover .home-o-resume {
+  transform: scale(1.5) translate(0, 1.2em) rotate(45deg);
+}
+
+.home-m-resume {
+  transition: .5s .3s;
+}
+
+.page-btn:hover .home-m-resume {
+  transform: scale(1.5) translate(0, 1em) rotate(45deg);
+}
+
+.home-e-resume {
+  transition: .5s .4s;
+}
+
+.page-btn:hover .home-e-resume {
+  transform: scale(1.5) translate(0, .8em) rotate(45deg);
+}
+
+/* about */
+
+.home-h-about {
+  transition: .5s .1s;
+}
+
+.page-btn:hover .home-h-about {
+  transform: scale(2.2) translate(0, .5em) rotate(90deg);
+}
+
+.home-o-about {
+  transition: .5s .2s;
+}
+
+.page-btn:hover .home-o-about {
+  transform: scale(1.5) translate(-1em, 1.6em) rotate(90deg);
+}
+
+.home-m-about {
+  transition: .5s .3s;
+}
+
+.page-btn:hover .home-m-about {
+  transform: scale(1.5) translate(-1.9em, 2.5em) rotate(90deg);
+}
+
+.home-e-about {
+  transition: .5s .4s;
+}
+
+.page-btn:hover .home-e-about {
+  transform: scale(1.5) translate(-2.8em, 3.5em) rotate(90deg);
 }
 
   /* ---- */
  /* work */
 /* ---- */
 
-.fooh:hover {
+.work-link:hover {
   animation: work 3s;
 }
 
