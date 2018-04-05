@@ -1,0 +1,141 @@
+.page-btn {
+  height: 1.5em;
+  padding: .5em 0 0 .5em;
+  background: transparent;
+  color: white;
+  font-size: 1em;
+  letter-spacing: .7em;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.page-btn:hover {
+  color: #40eddc;
+}
+
+.page-btn span {
+  display: inline-block;
+}
+
+  /* ---- */
+ /* work */
+/* ---- */
+
+  /* ------- */
+ /* contact */
+/* ------- */
+
+/* .contact-c {
+  transition: transform .5s;
+}
+
+.page-btn:hover .contact-c {
+  transform: rotate(-90deg);
+} */
+
+.contact-o {
+  transform-origin: center;
+  transition: transform .5s .1s;
+}
+
+.page-btn:hover .contact-o {
+  transform: scale(1.5) rotate(-90deg);
+}
+
+.contact-n {
+  transform-origin: center;
+  transition: transform .5s .2s;
+}
+
+.page-btn:hover .contact-n {
+  transform: scale(1.5) rotate(-90deg);
+}
+
+/* .contact-t {
+  transition: transform .5s .3s;
+}
+
+.page-btn:hover .contact-t {
+  transform: rotate(-90deg);
+} */
+
+.contact-a {
+  transform-origin: center;
+  transition: transform .5s .4s;
+}
+
+.page-btn:hover .contact-a {
+  transform: scale(1.5) rotate(-90deg);
+}
+
+.contact-c {
+  transform-origin: center;
+  transition: transform .5s .5s;
+}
+
+.page-btn:hover .contact-c {
+  transform: scale(1.5) rotate(-90deg);
+}
+
+.contact-t {
+  transform-origin: center;
+  transition: transform .5s .6s;
+}
+
+.page-btn:hover .contact-t {
+  transform: scale(1.5) rotate(-90deg);
+}
+
+.page-btn:hover #contact-cap-c {
+  transform: scale(2.2) rotate(-90deg);
+}
+
+  /* ------ */
+ /* resume */
+/* ------ */
+
+  /* ----- */
+ /* about */
+/* ----- */
+
+.about-a {
+  transition: transform .5s;
+}
+
+.page-btn:hover .about-a {
+  transform: translate(0, 1em);
+}
+
+.about-b {
+  transition: transform .5s .1s;
+}
+
+.page-btn:hover .about-b {
+  transform: translate(0, 1.2em);
+}
+
+.about-o {
+  transition: transform .5s .2s;
+}
+
+.page-btn:hover .about-o {
+  transform: translate(0, 1.4em);
+}
+
+.about-u {
+  transition: transform .5s .3s;
+}
+
+.page-btn:hover .about-u {
+  transform: translate(0, 1.6em);
+}
+
+.about-t {
+  transition: transform .5s .4s;
+}
+
+.page-btn:hover .about-t {
+  transform: translate(0, 1.8em);
+}

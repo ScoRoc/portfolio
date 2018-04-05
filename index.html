@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Scott Rosehart</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/stars.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/page-btn.css">
+  </head>
+  <body>
+
+    <p id="current-page-p">~~~~ Current Page: <span id="page-indicator"></span> ~~~~</p>
+
+    <!-- Home page -->
+    <!-- <div id="home"> -->
+      <a class="page-btn top-btn home-to-work">Work</a>
+      <a class="page-btn right-btn home-to-contact"><span id="contact-cap-c" class="contact-c">C</span><span class="contact-o">o</span><span class="contact-n">n</span><span class="contact-t">t</span><span class="contact-a">a</span><span class="contact-c">c</span><span class="contact-t">t</span></a>
+      <a class="page-btn down-btn home-to-resume">Resume</a>
+      <a class="page-btn left-btn home-to-about"><span class="about-a">A</span><span class="about-b">b</span><span class="about-o">o</span><span class="about-u">u</span><span class="about-t">t</span></a>
+        <!-- Stars -->
+      <div class="stars-section-container">
+        <div class="stars-wrapper">
+          <div id="star1-container">
+            <div id="star1"></div>
+          </div>
+          <div id="star2-container">
+            <div id="star2"></div>
+            <div id="star2b"></div>
+          </div>
+          <div id="star3-container">
+            <div id="star3"></div>
+            <div id="star3b"></div>
+          </div>
+        </div>
+      </div>
+    <!-- </div> -->
+
+    <div id="work" class="page shift">
+      <a class="page-btn top-btn to-home">Home</a>
+      <a class="page-btn right-btn through-to-contact">Contact</a>
+      <a class="page-btn down-btn through-to-resume">Resume</a>
+      <a class="page-btn left-btn through-to-about">About</a>
+
+      <img class="gifs" id="game-gif" src="../gifs/legend-of-tiny-pixelated-man-boss-screen.gif" />
+      <img class="gifs" id="game-gif" src="../gifs/yo-favo.gif" />
+      <img class="gifs" id="game-gif" src="../gifs/legend-of-tiny-pixelated-man-boss-screen.gif" />
+      <img class="gifs" id="game-gif" src="../gifs/legend-of-tiny-pixelated-man-boss-screen.gif" />
+      <p id='foop'>YO</p>
+    </div>
+    <div id="contact" class="page shift">
+      <a class="page-btn top-btn through-to-work">Work</a>
+      <a class="page-btn right-btn to-home">Home</a>
+      <a class="page-btn down-btn through-to-resume">Resume</a>
+      <a class="page-btn left-btn through-to-about">About</a>
+
+      <h1>Let's work together</h1>
+      <p>Have something you want built or want to collaborate on a project?</p>
+      <a href="https://www.linkedin.com/in/scottrosehart/" target='_blank' rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/ScoRoc" target='_blank' rel="noopener noreferrer"><i class="fab fa-github-square"></i></a>
+      <a href="https://soundcloud.com/animalwarfare" target='_blank' rel="noopener noreferrer"><i class="fab fa-soundcloud"></i></a>
+
+    </div>
+    <div id="resume" class="page shift">
+      <a class="page-btn top-btn through-to-work">Work</a>
+      <a class="page-btn right-btn through-to-contact">Contact</a>
+      <a class="page-btn down-btn to-home">Home</a>
+      <a class="page-btn left-btn through-to-about">About</a>
+    </div>
+    <div id="about" class="page shift">
+      <a class="page-btn top-btn through-to-work">Work</a>
+      <a class="page-btn right-btn through-to-contact">Contact</a>
+      <a class="page-btn down-btn through-to-resume">Resume</a>
+      <a class="page-btn left-btn to-home">Home</a>
+    </div>
+
+    <!-- jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+    <script src="./js/stars.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
