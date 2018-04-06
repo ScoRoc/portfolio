@@ -4,14 +4,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Scott Rosehart</title>
+    <link href="https://fonts.googleapis.com/css?family=Antic|Palanquin|Share+Tech" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/stars.css">
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/page-btn.css">
   </head>
   <body>
-
-    <p id="current-page-p">~~~~ Current Page: <span id="page-indicator"></span> ~~~~</p>
 
     <!-- Home page -->
     <!-- <div id="home"> -->
@@ -37,37 +37,140 @@
       </div>
     <!-- </div> -->
 
+    <!-- Work page -->
     <div id="work" class="page shift">
-      <a class="page-btn top-btn to-home"><span class="home-h-work">H</span><span class="home-o-work">o</span><span class="home-m-work">m</span><span class="home-e-work">e</span></a>
-      <a class="page-btn right-btn through-to-contact"><span id="contact-cap-c" class="contact-c">C</span><span class="contact-o">o</span><span class="contact-n">n</span><span class="contact-t">t</span><span class="contact-a">a</span><span class="contact-c">c</span><span class="contact-t">t</span></a>
-      <a class="page-btn down-btn through-to-resume"><span class="resume-r">R</span><span class="resume-e1">e</span><span class="resume-s">s</span><span class="resume-u">u</span><span class="resume-m">m</span><span class="resume-e2">e</span></a>
-      <a class="page-btn left-btn through-to-about"><span class="about-a">A</span><span class="about-b">b</span><span class="about-o">o</span><span class="about-u">u</span><span class="about-t">t</span></a>
+      <a class="page-btn top-btn to-home work-btns"><span class="home-h-work">H</span><span class="home-o-work">o</span><span class="home-m-work">m</span><span class="home-e-work">e</span></a>
+      <a class="page-btn right-btn through-to-contact work-btns"><span id="contact-cap-c" class="contact-c">C</span><span class="contact-o">o</span><span class="contact-n">n</span><span class="contact-t">t</span><span class="contact-a">a</span><span class="contact-c">c</span><span class="contact-t">t</span></a>
+      <a class="page-btn down-btn through-to-resume work-btns"><span class="resume-r">R</span><span class="resume-e1">e</span><span class="resume-s">s</span><span class="resume-u">u</span><span class="resume-m">m</span><span class="resume-e2">e</span></a>
+      <a class="page-btn left-btn through-to-about work-btns"><span class="about-a">A</span><span class="about-b">b</span><span class="about-o">o</span><span class="about-u">u</span><span class="about-t">t</span></a>
 
-      <img class="gifs" id="game-gif" src="./gifs/legend-of-tiny-pixelated-man-boss-screen.gif" />
-      <img class="gifs" id="game-gif" src="./gifs/yo-favo.gif" />
-      <img class="gifs" id="game-gif" src="./gifs/legend-of-tiny-pixelated-man-boss-screen.gif" />
-      <img class="gifs" id="game-gif" src="./gifs/legend-of-tiny-pixelated-man-boss-screen.gif" />
-      <p id='foop'>YO</p>
+      <div class="work-content">
+        <div class="row work-row work-first-row">
+          <div class="col s12 l4 offset-l1">
+            <img class="gifs" id="game-gif" src="./gifs/legend-of-tiny-pixelated-man-boss-screen-480-comp.gif" />
+          </div>
+          <div class="col l4 offset-l1 hide-on-med-and-down">
+            <h4>Legend of Tiny, Pixelated, 1980's man</h4>
+            <p>Legend of Tiny, Pixelated, 1980's man is an HTML 5 canvas game that has 10 different enemies, including a 3 stage boss, each with their own custom build AI. The player can lose life upon being hit and gain life upon collecting a heart. In addition to the entire game, the custom backtrack was created by Scott as well.</p>
+            <h5>Technologies used:</h5>
+            <p>HTML | CSS | JavaScript | HTML5 Canvas | Bootstrap</p>
+            <a class="work-row-a" href="https://github.com/ScoRoc/Top-Down-RPG-Game" target='_blank' rel="noopener noreferrer">Github</a>
+            <!-- <span class="work-row-span"> | </span> -->
+            <a class="work-row-a" href="https://scoroc.github.io/Top-Down-RPG-Game/" target='_blank' rel="noopener noreferrer">Live site</a>
+          </div>
+          <div class="col s10 offset-s1 hide-on-large-only">
+            <h4>Legend of Tiny, Pixelated, 1980's man</h4>
+            <p>Legend of Tiny, Pixelated, 1980's man is an HTML 5 canvas game that has 10 different enemies, including a 3 stage boss, each with their own custom build AI. The player can lose life upon being hit and gain life upon collecting a heart. In addition to the entire game, the custom backtrack was created by Scott as well.</p>
+            <h5>Technologies used:</h5>
+            <p>HTML | CSS | JavaScript | HTML5 Canvas | Bootstrap</p>
+            <a class="work-row-a" href="https://github.com/ScoRoc/Top-Down-RPG-Game" target='_blank' rel="noopener noreferrer">Github</a>
+            <!-- <span class="work-row-span"> | </span> -->
+            <a class="work-row-a" href="https://scoroc.github.io/Top-Down-RPG-Game/" target='_blank' rel="noopener noreferrer">Live site</a>
+          </div>
+        </div>
+
+        <div class="row work-row">
+          <div class="col s12 l4 push-l7">
+            <img class="gifs" id="yofavo-gif" src="./gifs/yo-favo-480-compressor.gif" />
+          </div>
+          <div class="col l4 pull-l2 hide-on-med-and-down">
+            <h4>yo! favo</h4>
+            <p>yo! favo is a full stack app built on Node. Users are able to query the Taste Dive API and then favorite music, movies, tv shows, and games. They can then order this list and share it with their friends.</p>
+            <h5>Technologies used:</h5>
+            <p>Node.js | Express.js | jQuery | EJS Layouts | AJAX | PostgreSQL | Sequelize | Materialize | Taste Dive API</p>
+            <a class="work-row-a" href="https://github.com/ScoRoc/yo-favo" target='_blank' rel="noopener noreferrer">Github</a>
+            <!-- <span class="work-row-span"> | </span> -->
+            <a class="work-row-a" href="https://yo-favo.herokuapp.com/" target='_blank' rel="noopener noreferrer">Live site</a>
+          </div>
+          <div class="col s10 offset-s1 hide-on-large-only">
+            <h4>yo! favo</h4>
+            <p>yo! favo is a full stack app built on Node. Users are able to query the Taste Dive API and then favorite music, movies, tv shows, and games. They can then order this list and share it with their friends.</p>
+            <h5>Technologies used:</h5>
+            <p>Node.js | Express.js | jQuery | EJS Layouts | AJAX | PostgreSQL | Sequelize | Materialize | Taste Dive API</p>
+            <a class="work-row-a" href="https://github.com/ScoRoc/yo-favo" target='_blank' rel="noopener noreferrer">Github</a>
+            <!-- <span class="work-row-span"> | </span> -->
+            <a class="work-row-a" href="https://yo-favo.herokuapp.com/" target='_blank' rel="noopener noreferrer">Live site</a>
+          </div>
+        </div>
+
+        <div class="row work-row">
+          <div class="col s12 l4 offset-l2">
+            <img class="gifs" id="ryde-gif" src="./gifs/legend-of-tiny-pixelated-man-boss-screen-original.gif" />
+          </div>
+          <div class="col l4 offset-l1 hide-on-med-and-down">
+            <h4>Ryde</h4>
+            <p>This full stack MERN app brings carpooling into the present tech age, making it easy to share rydes to work, weekend destinations, and more. If you know that you'll be driving somewhere, why not pick up some fellow travellers on the way to share the costs?</p>
+            <h5>Technologies used:</h5>
+            <p>React.js | Redux | JSX | Node.js | Express | bcrypt | Passprt | Session | MongoDb | Mongoose</p>
+            <a class="work-row-a" href="https://github.com/ScoRoc/Ryde" target='_blank' rel="noopener noreferrer">Github</a>
+            <!-- <span class="work-row-span"> | </span> -->
+            <a class="work-row-a" href="https://aqueous-springs-25736.herokuapp.com/" target='_blank' rel="noopener noreferrer">Live site</a>
+          </div>
+          <div class="col s10 offset-s1 hide-on-large-only">
+            <h4>Ryde</h4>
+            <p>This full stack MERN app brings carpooling into the present tech age, making it easy to share rydes to work, weekend destinations, and more. If you know that you'll be driving somewhere, why not pick up some fellow travellers on the way to share the costs?</p>
+            <h5>Technologies used:</h5>
+            <p>React.js | Redux | JSX | Node.js | Express | bcrypt | Passprt | Session | MongoDb | Mongoose</p>
+            <a class="work-row-a" href="https://github.com/ScoRoc/Ryde" target='_blank' rel="noopener noreferrer">Github</a>
+            <!-- <span class="work-row-span"> | </span> -->
+            <a class="work-row-a" href="https://aqueous-springs-25736.herokuapp.com/" target='_blank' rel="noopener noreferrer">Live site</a>
+          </div>
+        </div>
+
+        <div class="row work-row">
+          <div class="col s12 l4 push-l7">
+            <img class="gifs" id="game-gif" src="./gifs/legend-of-tiny-pixelated-man-boss-screen-480.gif" />
+          </div>
+          <div class="col l4 pull-l2 hide-on-med-and-down">
+            <p>Legend of Tiny, Pixelated, 1980's man is an HTML 5 canvas game that has 10 different enemies, including a 3 stage boss, each with their own custom build AI. The player can lose life upon being hit and gain life upon collecting a heart. In addition to the entire game, the custom backtrack was created by Scott as well.</p>
+            <p>Technologies used:</p>
+            <p>HTML | CSS | JavaScript | HTML5 Canvas | Bootstrap</p>
+            <a class="work-row-a" href="#" target='_blank' rel="noopener noreferrer">Github</a>
+            <!-- <span class="work-row-span"> | </span> -->
+            <a class="work-row-a" href="#" target='_blank' rel="noopener noreferrer">Live site</a>
+          </div>
+          <div class="col s10 offset-s1 hide-on-large-only">
+            <p>Legend of Tiny, Pixelated, 1980's man is an HTML 5 canvas game that has 10 different enemies, including a 3 stage boss, each with their own custom build AI. The player can lose life upon being hit and gain life upon collecting a heart. In addition to the entire game, the custom backtrack was created by Scott as well.</p>
+            <p>Technologies used:</p>
+            <p>HTML | CSS | JavaScript | HTML5 Canvas | Bootstrap</p>
+            <a class="work-row-a" href="#" target='_blank' rel="noopener noreferrer">Github</a>
+            <!-- <span class="work-row-span"> | </span> -->
+            <a class="work-row-a" href="#" target='_blank' rel="noopener noreferrer">Live site</a>
+          </div>
+        </div>
+
+      </div>
+
     </div>
+
+    <!-- Contact page -->
     <div id="contact" class="page shift">
       <a class="page-btn top-btn through-to-work work-link">Work</a>
       <a class="page-btn right-btn to-home"><span class="home-h-contact">H</span><span class="home-o-contact">o</span><span class="home-m-contact">m</span><span class="home-e-contact">e</span></a>
       <a class="page-btn down-btn through-to-resume"><span class="resume-r">R</span><span class="resume-e1">e</span><span class="resume-s">s</span><span class="resume-u">u</span><span class="resume-m">m</span><span class="resume-e2">e</span></a>
       <a class="page-btn left-btn through-to-about"><span class="about-a">A</span><span class="about-b">b</span><span class="about-o">o</span><span class="about-u">u</span><span class="about-t">t</span></a>
 
-      <h1>Let's work together</h1>
-      <p>Have something you want built or want to collaborate on a project?</p>
-      <a href="https://www.linkedin.com/in/scottrosehart/" target='_blank' rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
-      <a href="https://github.com/ScoRoc" target='_blank' rel="noopener noreferrer"><i class="fab fa-github-square"></i></a>
-      <a href="https://soundcloud.com/animalwarfare" target='_blank' rel="noopener noreferrer"><i class="fab fa-soundcloud"></i></a>
+      <div class="row contact-first-row">
+        <div class="col s8 offset-s2">
+          <h1>Let's work together</h1>
+          <p>Have something you want built or want to collaborate on a project?</p>
+          <a href="https://www.linkedin.com/in/scottrosehart/" target='_blank' rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/ScoRoc" target='_blank' rel="noopener noreferrer"><i class="fab fa-github-square"></i></a>
+          <a href="https://soundcloud.com/animalwarfare" target='_blank' rel="noopener noreferrer"><i class="fab fa-soundcloud"></i></a>
+        </div>
+      </div>
 
     </div>
+
+    <!-- Resume page -->
     <div id="resume" class="page shift">
       <a class="page-btn top-btn through-to-work work-link">Work</a>
       <a class="page-btn right-btn through-to-contact"><span id="contact-cap-c" class="contact-c">C</span><span class="contact-o">o</span><span class="contact-n">n</span><span class="contact-t">t</span><span class="contact-a">a</span><span class="contact-c">c</span><span class="contact-t">t</span></a>
       <a class="page-btn down-btn to-home"><span class="home-h-resume">H</span><span class="home-o-resume">o</span><span class="home-m-resume">m</span><span class="home-e-resume">e</span></a>
       <a class="page-btn left-btn through-to-about"><span class="about-a">A</span><span class="about-b">b</span><span class="about-o">o</span><span class="about-u">u</span><span class="about-t">t</span></a>
     </div>
+
+    <!-- About page -->
     <div id="about" class="page shift">
       <a class="page-btn top-btn through-to-work work-link">Work</a>
       <a class="page-btn right-btn through-to-contact"><span id="contact-cap-c" class="contact-c">C</span><span class="contact-o">o</span><span class="contact-n">n</span><span class="contact-t">t</span><span class="contact-a">a</span><span class="contact-c">c</span><span class="contact-t">t</span></a>

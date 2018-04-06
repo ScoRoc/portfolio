@@ -3,7 +3,9 @@
   padding: .5em 0 0 .5em;
   background: transparent;
   color: white;
-  font-size: 1em;
+  font-family: 'Share Tech', sans-serif;
+  font-size: 1.3em;
+  font-weight: bold;
   letter-spacing: .7em;
   border: none;
   outline: none;
@@ -17,6 +19,32 @@
 
 .page-btn span {
   display: inline-block;
+}
+
+.top-btn {
+  position: fixed;
+  top: 1%;
+  left: 45%;
+}
+
+.right-btn {
+  position: fixed;
+  top: 45%;
+  right: -2%;
+  transform: rotate(90deg);
+}
+
+.down-btn {
+  position: fixed;
+  bottom: 3%;
+  left: 45%;
+}
+
+.left-btn {
+  position: fixed;
+  left: -1%;
+  top: 45%;
+  transform: rotate(-90deg);
 }
 
   /* ---- */
@@ -321,7 +349,7 @@
 }
 
 .page-btn:hover .about-a {
-  transform: scale(2.2) translate(2.8em, 0) rotate(90deg);
+  transform: scale(2.2) translate(2.8em, .1em) rotate(90deg);
 }
 
 .about-b {
