@@ -13,7 +13,7 @@
   height: 100vh;
   width: 100vw;
   z-index: -10 !important;
-  animation: rotate-star-container-foo 180s linear infinite;
+  animation: rotate-star-wrapper 180s linear infinite;
 }
 
 #star1-container {
@@ -112,7 +112,7 @@
   }
 }
 
-@keyframes rotate-star-container-foo {
+@keyframes rotate-star-wrapper {
   0% {
     transform: rotate3d(0,0,0,0deg);
   }
